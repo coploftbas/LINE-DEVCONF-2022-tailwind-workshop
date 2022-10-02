@@ -7,7 +7,7 @@
         <font-awesome-icon v-if="type === 'password'" :icon="['fas', 'key']" />
         <font-awesome-icon v-if="type === 'email'" :icon="['fas', 'envelope']" />
       </div>
-      <input :type="type" :placeholder="placeholder" class="bg-blue-300 flex-1 w-full">
+      <input :type="type" :placeholder="placeholder" class="flex-1 w-full">
     </div>
   </div>
 </template>
